@@ -85,5 +85,4 @@
 4. `kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml`
 5. `kubectl proxy`
 6. `Navigate to <http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login>
-7. Choose Token in Kubernetes dashboard and paste in token                                                                                                    |
-
+7. Choose Token in Kubernetes dashboard and paste in token

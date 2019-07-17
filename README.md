@@ -49,6 +49,12 @@
 
 ### Kubectl Commands
 
+### Switch context
+
+| Command                                                                                        |               Action                                         |
+|------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+|`kubectl config use-context <cluster-name>`                                                     | set context to specified cluster                             |
+
 ### Nodes
 
 | Command                                                                                        |               Action                                         |

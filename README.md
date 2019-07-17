@@ -65,12 +65,11 @@
 
 ## Howto connect to K8S dashboard in your local Docker Engine
 
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Docker -> Settings -> Kubernetes -> Enable Kubernetes [Apply]                                                                                              |
-| 2. Open a command prompt and enter `kubectl describe secret`                                                                                                  |
-| 3. Copy token                                                                                                                                                 |
-| 4. `kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml`                         |
-| 5. `kubectl proxy`                         |                                                                                                                  |
-| 6. `Navigate to [http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login`](http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login`)                                      |
-| 7. Choose Token in Kubernetes dashboard and paste in token                                                                                                    |
+1. Docker -> Settings -> Kubernetes -> Enable Kubernetes [Apply]
+2. Open a command prompt and enter `kubectl describe secret`
+3. Copy token
+4. `kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v1.10.1/src/deploy/recommended/kubernetes-dashboard.yaml`
+5. `kubectl proxy`
+6. `Navigate to [http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login`]<http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login>
+7. Choose Token in Kubernetes dashboard and paste in token                                                                                                    |
 

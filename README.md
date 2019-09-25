@@ -74,6 +74,7 @@
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 |`kubectl apply -f deployment.yaml`                                                              | deploy to kubernetes cluster                                 |
 |`kubectl get deployments`                                                                       | get deployments of a kubernetes cluster                      |
+|`kubectl delete deployment <deployment-name>`                                                   | delete a deployment by name                                  |
 
 ### Services
 

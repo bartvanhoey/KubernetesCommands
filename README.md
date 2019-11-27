@@ -109,3 +109,9 @@
 
 | Command                                                                                        | Action                                                       |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| `helm create <name-chart>`
+| `helm search mssql-linux`
+| `helm dep list`
+`helm dependency update .`
+`helm template .`
+`helm install .`
